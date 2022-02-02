@@ -33,6 +33,7 @@ function draw(){
     circle(rightWristX,rightWristY,20);
     if(scoreRightWrist > 0.2)
     {
+        circle(rightWristX,rightWristY,20);
     if(rightWristX >0 && rightWristY <= 100)
     {
         document.getElementById("speed").innerHTML = "Speed = 0.5x";
